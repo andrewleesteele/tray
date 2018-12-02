@@ -156,7 +156,7 @@ var clean_room = function(room){
  *
  * @param {string}   path: file path to input values.
  */
-var main = function(path='input.txt'){
+var main = function(path){
 	data = read_file(path);
 	room = init_room(data);
 	clean_room(room);
@@ -165,7 +165,7 @@ var main = function(path='input.txt'){
 	console.log(room.cleaned);
 }
 
-main();
+main('input.txt');
 
 module.exports = {
 	read_file,
