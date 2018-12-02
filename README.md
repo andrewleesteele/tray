@@ -44,13 +44,17 @@ Example (matching the input above):
 ## To Run
 
 Run in Terminal:
+
 `node cleaner.js <input file path>`
+
 If no input file path is given, input.txt is used as default.
 
 ## To Run Unit Tests
 
 If "chai" module is not installed locally, run:
+
 `npm install --save-dev chai`
 
 Then run:
+
 `mocha cleaner_test.js`
