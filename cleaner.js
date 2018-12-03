@@ -1,13 +1,13 @@
 
 /**
- * Summary: Given a 
+ * Summary: The goal of the program is to take the room dimensions, 
+ * the locations of the dirt patches, the hoover location and the driving instructions 
+ * as input and to then output the final hoover position and the number of patches of dirt cleaned.
  *
  * @author Andrew Steele.
  * @since 12.01.2018
  */
-  
-/** jshint {inline configuration here} */
-
+ 
 const fs = require('fs');
 
 var directions = {
